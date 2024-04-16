@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const fetchUserRole = async () => {
       try {
-        const response = await axios.get(`https://auth-2y2nerf26-aakartits-projects.vercel.app/users/${userId}`, {
+        const response = await axios.get(`https://auth-sys-xi.vercel.app//users/${userId}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },

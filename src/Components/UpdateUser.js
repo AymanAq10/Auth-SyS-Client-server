@@ -10,7 +10,7 @@ export default function UpdateUser (props){
     const Update = async (e) => {
     e.preventDefault()
     try {
-      const response = await axios.put(`https://auth-2y2nerf26-aakartits-projects.vercel.app/users/update/${parseInt(props.userID)}`, { fullName,email, password },{
+      const response = await axios.put(`https://auth-sys-xi.vercel.app//users/update/${parseInt(props.userID)}`, { fullName,email, password },{
           headers: {
             Authorization: `Bearer ${token}`,
           },
