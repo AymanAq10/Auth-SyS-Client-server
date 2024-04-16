@@ -12,7 +12,7 @@ function Login() {
   const Navigate = useNavigate()
   const login = async () => {
     try {
-      const response = await axios.post('https://auth-sys-xi.vercel.app//users/signin', { email, password });
+      const response = await axios.post('https://auth-sys-xi.vercel.app/users/signin', { email, password });
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('userId',response.data.id);
       alert('Login successful');

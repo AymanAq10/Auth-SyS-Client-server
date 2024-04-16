@@ -11,7 +11,7 @@ const [data,setdata]=useState(null);
 const [isloading,setisLoading]=useState(false);
 const [errMsg,seterrMsg]=useState(null);
 const token = localStorage.getItem('token');
-const api = `https://auth-sys-xi.vercel.app//users/`
+const api = `https://auth-sys-xi.vercel.app/users/`
 
 
 useEffect(()=>{
